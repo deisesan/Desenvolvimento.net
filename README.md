@@ -10,7 +10,8 @@ Este é um projeto desenvolvido como parte da disciplina de Desenvolvimento Para
 - [Exercício 1](#exe1)
 - [Exercício 2](#exe2)
 - [Exercício 3](#exe3)
-
+- [Exercício 4](#exe4)
+ 
 ---
 
 ## <a name="exe1">Exercício 1</a>
@@ -178,3 +179,13 @@ Este é um projeto desenvolvido como parte da disciplina de Desenvolvimento Para
      Console.WriteLine("Resto da Divisão -> Divisão de {0} por zero.", valueA);
    }
     ```
+---
+
+## <a name="exe4">Exercício 4</a>
+
+1. Escrever par ou ímpar na tela, a partir de uma variável:
+   * com switch
+   * com if sem else
+   * sem nenhuma estrutura de controle
+   * com operador ternário
+3. Escreva um programa que use switch para encontrar o valor máximo entre dois números
