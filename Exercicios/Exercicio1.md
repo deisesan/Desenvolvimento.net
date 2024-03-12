@@ -85,4 +85,3 @@
     ```csharp  ​
     nomes.ForEach(Console.WriteLine);
     ```
----
