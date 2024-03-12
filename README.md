@@ -6,7 +6,7 @@ Este é um projeto desenvolvido como parte da disciplina de Desenvolvimento Para
 - Aula 2 - Operadores e funções lambda
 - Aula 3 - Condicional
 
-## <a name="indice">Exercícios</a>
+## <a name="exercicios">Exercícios</a>
 - [Exercício 1](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio1.md)
 - [Exercício 2](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio2.md)
 - [Exercício 3](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio3.md)
