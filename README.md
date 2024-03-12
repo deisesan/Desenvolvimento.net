@@ -5,6 +5,7 @@ Este é um projeto desenvolvido como parte da disciplina de Desenvolvimento Para
 - Aula 1 - Introdução à disciplina, ao .NET e a linguagem C#
 - Aula 2 - Operadores e funções lambda
 - Aula 3 - Condicional
+- Aula 4 - Repetição
 
 ## Exercícios
 - [Exercício 1](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio1.md)
