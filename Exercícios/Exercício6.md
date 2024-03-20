@@ -41,7 +41,7 @@ O usuário deve escolher se quer adicionar mais um número, ou verificar a médi
       {
         private List<int> numbers = new();
       
-        public ListDinamic() { }
+        ListDinamic() { }
         
         public int Numbers { get; set; }
         
