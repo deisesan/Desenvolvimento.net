@@ -7,6 +7,7 @@ Este é um projeto desenvolvido como parte da disciplina de Desenvolvimento Para
 - Aula 3 - Condicional
 - Aula 4 - Repetição
 - Aula 5 - Introdução a OO
+- Aula 6 - Exceções
 
 ## Exercícios
 - [Exercício 1](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio1.md)
@@ -14,3 +15,4 @@ Este é um projeto desenvolvido como parte da disciplina de Desenvolvimento Para
 - [Exercício 3](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio3.md)
 - [Exercício 4](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio4.md)
 - [Exercício 5](https://github.com/deisesan/Desenvolvimento.net/edit/main/Exerc%C3%ADcios/Exerc%C3%ADcio5.md)
+- [Exercício 5](https://github.com/deisesan/Desenvolvimento.net/edit/main/Exerc%C3%ADcios/Exerc%C3%ADcio6.md)
