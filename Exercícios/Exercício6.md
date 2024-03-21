@@ -41,24 +41,24 @@ O usuário deve escolher se quer adicionar mais um número, ou verificar a médi
       {
         private List<int> numbers = new();
       
-        ListDinamic() { }
-        
+        public ListDinamic() { }
+      
         public int Numbers { get; set; }
-        
+      
         public void addNumber(int value) { numbers.Add(value); }
-        
+      
         public double meanNumbers()
         {
           return numbers.Count() == 0 ?
               throw new ArgumentException("Não é possível calcular a média/desvioPadrão com uma lista vazia") :
               numbers.Average();
         }
-        
+      
         public double standardDeviation()
         {
           return Math.Sqrt(numbers.Sum(number => Math.Pow(number - numbers.Average(), 2)) / numbers.Count());
         }
-        
+      
         public override string ToString()
         {
           return $"Média: {meanNumbers():F2}\nDesvio Padrão:{standardDeviation():F2}";
