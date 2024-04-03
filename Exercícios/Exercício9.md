@@ -120,12 +120,15 @@
 
        nomeado
 
-   f. Qual é a classe base de todos os tipos de dados? Object     '
-        
-        break → para o fluxo do escopo 
-        
-        continue ->interrompe no ponto definido, devolve a interação para a estrutura e ela faz o fluxo seguinte
+   f. Qual é a classe base de todos os tipos de dados? Object     
 
    g. Quais são os tipos de variáveis em que os valores são atribuídos diretamente? Tipo de valor
 
    h. Diferencie os comandos “break” e “continue”.
+
+       break → para o fluxo do escopo 
+        
+       continue ->interrompe no ponto definido, devolve a interação para a estrutura e ela faz o fluxo seguinte
+   
+
+6. Crie uma classe chamada Balança, que deve ser capaz de medir pesos com uma determinada precisão. A classe Balança possui as seguintes propriedades:
