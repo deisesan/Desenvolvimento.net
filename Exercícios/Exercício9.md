@@ -81,6 +81,7 @@
     ```
 
 5. Responda as questões abaixo sobre a Linguagem C#, com definição e exemplo:
+   
    a. Como se declara um tipo anônimo? var tipoAnonimo
    
    b. Qual é a palavra-chave necessária para um parâmetro ser uma referência a parâmetro de saída? out
@@ -116,7 +117,7 @@
        continue ->interrompe no ponto definido, devolve a interação para a estrutura e ela faz o fluxo seguinte
    
 
-6. Crie uma classe chamada Balança, que deve ser capaz de medir pesos com uma determinada precisão. A classe Balança possui as seguintes propriedades:
+7. Crie uma classe chamada Balança, que deve ser capaz de medir pesos com uma determinada precisão. A classe Balança possui as seguintes propriedades:
 
    Precisão: Um inteiro que representa a precisão da balança.
 
