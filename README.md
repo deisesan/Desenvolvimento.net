@@ -17,5 +17,5 @@ Este é um projeto desenvolvido como parte da disciplina de Desenvolvimento Para
 - [Exercício 5](https://github.com/deisesan/Desenvolvimento.net/edit/main/Exerc%C3%ADcios/Exerc%C3%ADcio5.md)
 - [Exercício 6](https://github.com/deisesan/Desenvolvimento.net/edit/main/Exerc%C3%ADcios/Exerc%C3%ADcio6.md)
 - [Exercício 7](https://github.com/deisesan/Desenvolvimento.net/edit/main/Exerc%C3%ADcios/Exerc%C3%ADcio7.md)
-- [Exercício 8]()
+- Exercício 8
 - [Exercício 9](https://github.com/deisesan/Desenvolvimento.net/edit/main/Exerc%C3%ADcios/Exerc%C3%ADcio9.md)
