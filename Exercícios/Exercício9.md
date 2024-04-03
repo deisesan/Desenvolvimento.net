@@ -71,22 +71,6 @@
     ```
 
     ```csharp
-    try
-    {
-      int[] numeros = { 1, 2, 3 };
-      Console.WriteLine(numeros[10]);
-    }
-    catch
-    {
-      Console.WriteLine("Algo errado.");
-    }
-    finally
-    {
-      Console.WriteLine("Exemplo 'try catch'.");
-    }
-    ```
-
-    ```csharp
     int num = 9;
     double numfloat = 8.99;
     float numfloat = 8.99f;
@@ -132,3 +116,59 @@
    
 
 6. Crie uma classe chamada Balança, que deve ser capaz de medir pesos com uma determinada precisão. A classe Balança possui as seguintes propriedades:
+
+   Precisão: Um inteiro que representa a precisão da balança.
+
+   Tara: Um valor de ponto flutuante que representa o ajuste de tara da balança. O valor padrão é 5.
+
+   Peso: Um valor de ponto flutuante que representa o peso atual na balança. Não pode ser negativo; caso contrário, uma exceção será lançada.
+
+    ```csharp
+      Balanca balanca = new Balanca(3);
+      double stopVariable;
+      
+      do
+      {
+        Console.WriteLine("Balança");
+        Console.WriteLine("Digite um valor");
+        balanca.Peso = double.Parse(Console.ReadLine() ?? "0.0"); ;
+        Console.WriteLine(balanca.MostrarPeso);
+      
+        Console.WriteLine("Digite o número da opção desejada: ");
+        Console.WriteLine("1 - Pesar novamente");
+        Console.WriteLine("0 - Finalizar");
+        stopVariable = int.Parse(Console.ReadLine() ?? "0");
+      
+      } while (stopVariable != 0);
+      
+      public class Balanca
+      {
+        private int precisao;
+        private double tara = 5.0;
+        private double peso;
+      
+        public Balanca(int precisaoIn)
+        {
+          this.precisao = precisaoIn;
+        }
+      
+        public double Peso
+        {
+          get { return peso; }
+          set
+          {
+            if (value < 0)
+            {
+              throw new ArgumentOutOfRangeException("Valor negativo");
+            }
+            this.peso = value;
+          }
+        }
+      
+        public string MostrarPeso
+        {
+          get { return $"{(peso - tara).ToString($"F{precisao}")} kg"; }
+          set { }
+        }
+      }
+    ``` 
