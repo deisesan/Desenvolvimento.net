@@ -29,7 +29,7 @@
     }
    ```
   
-4. Como você completaria o seguinte código sem gerar erro de sintaxe?
+3. Como você completaria o seguinte código sem gerar erro de sintaxe?
 
    
     ```csharp
@@ -80,7 +80,7 @@
     string texto = "Olá, mundo";
     ```
 
-5. Responda as questões abaixo sobre a Linguagem C#, com definição e exemplo:
+4. Responda as questões abaixo sobre a Linguagem C#, com definição e exemplo:
    
    a. Como se declara um tipo anônimo? var tipoAnonimo
    
@@ -117,7 +117,7 @@
        continue ->interrompe no ponto definido, devolve a interação para a estrutura e ela faz o fluxo seguinte
    
 
-7. Crie uma classe chamada Balança, que deve ser capaz de medir pesos com uma determinada precisão. A classe Balança possui as seguintes propriedades:
+5. Crie uma classe chamada Balança, que deve ser capaz de medir pesos com uma determinada precisão. A classe Balança possui as seguintes propriedades:
 
    Precisão: Um inteiro que representa a precisão da balança.
 
