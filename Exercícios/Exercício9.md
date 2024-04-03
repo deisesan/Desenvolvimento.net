@@ -19,6 +19,7 @@
    b. O valor da propriedade só pode ser modificado por código dentro da própria classe "Empregado".
 
    c. Sua tarefa é garantir que a implementação da propriedade "TipoEmpregado" atenda a esses requisitos.
+   
    ```csharp
    class Empregado {
     	public int TipoEmpregado {
@@ -28,7 +29,7 @@
     }
    ```
   
-3. Como você completaria o seguinte código sem gerar erro de sintaxe?
+4. Como você completaria o seguinte código sem gerar erro de sintaxe?
 
    
     ```csharp
@@ -79,7 +80,7 @@
     string texto = "Olá, mundo";
     ```
 
-4. Responda as questões abaixo sobre a Linguagem C#, com definição e exemplo:
+5. Responda as questões abaixo sobre a Linguagem C#, com definição e exemplo:
    a. Como se declara um tipo anônimo? var tipoAnonimo
    
    b. Qual é a palavra-chave necessária para um parâmetro ser uma referência a parâmetro de saída? out
