@@ -29,9 +29,10 @@ Não é um pangrama
 
 ```csharp
   Console.WriteLine("Pangrama");
+  Pangrama pangrama;
   int option;
   string phrase;
-  Pangrama pangrama;
+  bool optionException = false;
   
   do
   {
@@ -40,49 +41,56 @@ Não é um pangrama
     Console.WriteLine("2 - Português ");
     Console.WriteLine("3 - Sair ");
   
-    option = int.Parse(Console.ReadLine() ?? "0");
+    optionException = int.TryParse(Console.ReadLine(), out option);
   
-    Console.WriteLine("Digite uma sentença: ");
-    phrase = Console.ReadLine() ?? "";
-  
-    switch (option)
+    if (!optionException)
     {
-      case 1:
-        Console.WriteLine("Entrada");
-        Console.WriteLine("Inglês");
-        Console.WriteLine(phrase);
+      Console.WriteLine("Opção Inválida");
+    }
+    else
+    {
+      Console.WriteLine("Digite uma sentença: ");
+      phrase = Console.ReadLine() ?? "";
   
-        try
-        {
-          pangrama = new English(phrase);
-          Console.WriteLine(pangrama.ToString());
-        }
-        catch (ArgumentException error)
-        {
-          Console.WriteLine(error.Message);
-        }
-        break;
-      case 2:
-        Console.WriteLine("Entrada");
-        Console.WriteLine("Português");
-        Console.WriteLine("phrase");
+      switch (option)
+      {
+        case 1:
+          Console.WriteLine("Entrada");
+          Console.WriteLine("Inglês");
+          Console.WriteLine(phrase);
   
-        try
-        {
-          pangrama = new Portuguese(phrase);
-          Console.WriteLine(pangrama.ToString());
-        }
-        catch (ArgumentException error)
-        {
-          Console.WriteLine(error.Message);
-        }
-        break;
-      case 3:
-        Console.WriteLine("Programa Finalizado");
-        break;
-      default:
-        Console.WriteLine("Opção Inválida");
-        break;
+          try
+          {
+            pangrama = new English(phrase);
+            Console.WriteLine(pangrama.ToString());
+          }
+          catch (ArgumentException error)
+          {
+            Console.WriteLine(error.Message);
+          }
+          break;
+        case 2:
+          Console.WriteLine("Entrada");
+          Console.WriteLine("Português");
+          Console.WriteLine("phrase");
+  
+          try
+          {
+            pangrama = new Portuguese(phrase);
+            Console.WriteLine(pangrama.ToString());
+          }
+          catch (ArgumentException error)
+          {
+            Console.WriteLine(error.Message);
+          }
+          break;
+        case 3:
+          Console.WriteLine("Programa Finalizado");
+          break;
+        default:
+          Console.WriteLine("Opção Inválida");
+          break;
+      }
     }
   } while (option != 3);
   
@@ -103,13 +111,12 @@ Não é um pangrama
   
     public English(string phrase)
     {
+      this.Phrase = phrase.ToLower();
+  
       if (string.IsNullOrEmpty(this.Phrase))
         throw new ArgumentException("Não foi digitado uma frase");
       else
-      {
-        this.Phrase = phrase.ToLower();
         this.isPangrama = Alphabet.All(letter => this.Phrase.Contains(letter));
-      }
     }
   }
   
@@ -119,13 +126,12 @@ Não é um pangrama
   
     public Portuguese(string phrase)
     {
+      this.Phrase = phrase.ToLower();
+  
       if (string.IsNullOrEmpty(this.Phrase))
         throw new ArgumentException("Não foi digitado uma frase");
       else
-      {
-        this.Phrase = phrase.ToLower();
         this.isPangrama = Alphabet.All(letter => this.Phrase.Contains(letter));
-      }
     }
   }
 ```
