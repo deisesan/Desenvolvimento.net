@@ -1,4 +1,4 @@
-## Exercício 10 - Pré-Avaliação
+## Exercício 10
 
 [Deve-se usar os conceitos de Orientação a Objetos: construtor, propriedades, atributos privados, pelo menos um método e herança] 
 
