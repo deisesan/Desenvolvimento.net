@@ -1,4 +1,4 @@
-## Exercício 10
+## Exercício 10.1
 
 [Deve-se usar os conceitos de Orientação a Objetos: construtor, propriedades, atributos privados, pelo menos um método e herança] 
 
