@@ -32,14 +32,14 @@ Não é um pangrama
   Pangrama pangrama;
   int option;
   string phrase;
-  bool optionException = false;
+  bool optionException;
   
   do
   {
     Console.WriteLine("Digite o número do idioma desejado: ");
-    Console.WriteLine("1 - Inglês ");
-    Console.WriteLine("2 - Português ");
-    Console.WriteLine("3 - Sair ");
+    Console.WriteLine("1 - Inglês");
+    Console.WriteLine("2 - Português");
+    Console.WriteLine("3 - Sair");
   
     optionException = int.TryParse(Console.ReadLine(), out option);
   
@@ -85,10 +85,10 @@ Não é um pangrama
           }
           break;
         case 3:
-          Console.WriteLine("Programa Finalizado");
+          Console.WriteLine("Programa Finalizado.");
           break;
         default:
-          Console.WriteLine("Opção Inválida");
+          Console.WriteLine("Opção Inválida.");
           break;
       }
     }
@@ -101,7 +101,7 @@ Não é um pangrama
   
     public override string ToString()
     {
-      return isPangrama ? "Saída \nÉ um pangrama" : "Saída \nNão é um pangrama";
+      return isPangrama ? "Saída \nÉ um pangrama." : "Saída \nNão é um pangrama.";
     }
   }
   
@@ -114,7 +114,7 @@ Não é um pangrama
       this.Phrase = phrase.ToLower();
   
       if (string.IsNullOrEmpty(this.Phrase))
-        throw new ArgumentException("Não foi digitado uma frase");
+        throw new ArgumentException("Não foi digitado uma frase.");
       else
         this.isPangrama = Alphabet.All(letter => this.Phrase.Contains(letter));
     }
@@ -129,7 +129,7 @@ Não é um pangrama
       this.Phrase = phrase.ToLower();
   
       if (string.IsNullOrEmpty(this.Phrase))
-        throw new ArgumentException("Não foi digitado uma frase");
+        throw new ArgumentException("Não foi digitado uma frase.");
       else
         this.isPangrama = Alphabet.All(letter => this.Phrase.Contains(letter));
     }
