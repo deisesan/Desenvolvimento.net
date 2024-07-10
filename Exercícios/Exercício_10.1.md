@@ -72,7 +72,7 @@ Não é um pangrama
         case 2:
           Console.WriteLine("Entrada");
           Console.WriteLine("Português");
-          Console.WriteLine("phrase");
+          Console.WriteLine(phrase);
   
           try
           {
