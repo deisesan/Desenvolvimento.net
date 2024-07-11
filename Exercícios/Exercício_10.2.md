@@ -57,7 +57,7 @@ Referência:
   
           try
           {
-            pangrama = new Portuguese { Phrase = phrase.ToLower().RemoveCaractExp() };
+            pangrama = new Portuguese { Phrase = phrase.ToLower().RemoveAcentos().RemoveCaractExp() };
             Console.WriteLine(pangrama.ToString());
           }
           catch (ArgumentException error)
