@@ -7,3 +7,7 @@ Pode-se deixar o código menos acoplado, retirando as funções de tratamento de
 Referência: 
   - [REGEX](https://blog.dp6.com.br/regex-o-guia-essencial-das-express%C3%B5es-regulares-2fc1df38a481)
   - [Normalize](https://learn.microsoft.com/en-us/dotnet/api/system.string.normalize?view=net-8.0&redirectedfrom=MSDN#overloads)
+
+```csharp
+
+```
