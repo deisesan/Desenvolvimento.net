@@ -15,9 +15,9 @@ Este é um projeto desenvolvido como parte da disciplina de Desenvolvimento Para
 - [Exercício 2](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio2.md)
 - [Exercício 3](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio3.md)
 - [Exercício 4](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio4.md)
-- [Exercício 5](https://github.com/deisesan/Desenvolvimento.net/edit/main/Exerc%C3%ADcios/Exerc%C3%ADcio5.md)
-- [Exercício 6](https://github.com/deisesan/Desenvolvimento.net/edit/main/Exerc%C3%ADcios/Exerc%C3%ADcio6.md)
-- [Exercício 7](https://github.com/deisesan/Desenvolvimento.net/edit/main/Exerc%C3%ADcios/Exerc%C3%ADcio7.md)
+- [Exercício 5](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio5.md)
+- [Exercício 6](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio6.md)
+- [Exercício 7](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio7.md)
 - Exercício 8
 - [Exercício 9](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio9.md)
 - [Exercício 10 - Parte 1](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio_10.1.md)
