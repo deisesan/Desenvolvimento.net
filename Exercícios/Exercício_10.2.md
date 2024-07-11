@@ -79,6 +79,7 @@ Referência:
   {
     protected string Alphabet { get; set; } = "";
     public string Phrase { get; set; } = "";
+
     public bool CheckPangrama()
     {
       return Alphabet.All(letter => this.Phrase.Contains(letter));
