@@ -1,4 +1,4 @@
-﻿using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;
 
 Console.WriteLine("\nPangrama\n");
 Pangrama pangrama;
@@ -46,7 +46,7 @@ do
 
         try
         {
-          pangrama = new Portuguese { Phrase = phrase.ToLower().RemoveAcentos().RemoveCaractExp() };
+          pangrama = new Portuguese { Phrase = phrase.ToLower().RemoveAccents().RemoveSpecialCharacters() };
           Console.WriteLine(pangrama.ToString());
         }
         catch (ArgumentException error)
@@ -97,12 +97,12 @@ public class Portuguese : Pangrama
 
 public static class StringManipulation
 {
-  public static string RemoveCaractExp(this string phrase)
+  public static string RemoveSpecialCharacters(this string phrase)
   {
     return Regex.Replace(phrase, @"[^a-zA-Z]", "");
   }
 
-  public static string RemoveAcentos(this string phrase)
+  public static string RemoveAccents(this string phrase)
   {
     return phrase.Normalize(System.Text.NormalizationForm.FormC);
   }
