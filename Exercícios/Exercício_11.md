@@ -22,7 +22,7 @@ estudantes.SetEstrategia(new QuickSort());
 estudantes.Sort();
 estudantes.SetEstrategia(new MergeSort());
 estudantes.Sort();
-```csharp
+```
 
 Referência: 
   - [Merge Sort – Data Structure and Algorithms Tutorials](https://www.geeksforgeeks.org/merge-sort/) - Adaptado para Lista de Strings
