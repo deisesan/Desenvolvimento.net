@@ -1,11 +1,18 @@
 ## Exercício 11
 
 Você deve implementar um programa C# que realiza a ordenação de uma lista de nomes utilizando diferentes estratégias de ordenação.
+
 Deve ter:
+
 Um interface IOrdenação que defina um contrato para as estratégias de ordenação. Essa interface deve conter um método Sort que recebe uma lista de strings como parâmetro.
+
 Duas classes concretas, que implementam a interface, e representem diferentes estratégias de ordenação: QuickSort (padrão) e MergeSort
+
 Uma classe ListaOrdenada que atuará como o contexto as estratégias de ordenação. Atributos: uma lista de strings e um do tipo IOrdenação
+
 No método Sort, da classe ListaOrdenada, chame o método Sort da estratégia de ordenação atual e, em seguida, itere sobre a lista de nomes e exiba-os.
+
+```csharp
 Main
 ListaOrdenada
 estudantes = new();
@@ -15,6 +22,7 @@ estudantes.SetEstrategia(new QuickSort());
 estudantes.Sort();
 estudantes.SetEstrategia(new MergeSort());
 estudantes.Sort();
+```csharp
 
 Referência: 
   - [Merge Sort – Data Structure and Algorithms Tutorials](https://www.geeksforgeeks.org/merge-sort/) - Adaptado para Lista de Strings
