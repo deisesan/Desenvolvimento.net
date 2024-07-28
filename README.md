@@ -23,3 +23,4 @@ Este é um projeto desenvolvido como parte da disciplina de Desenvolvimento Para
 - [Exercício 10 - Parte 1](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio_10.1.md)
 - [Exercício 10 - Parte 2](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio_10.2.md)
 - [Exercício 11](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio_11.md)
+- [Exercício 12](https://github.com/deisesan/Desenvolvimento.net/blob/main/Exerc%C3%ADcios/Exerc%C3%ADcio_12.md)
