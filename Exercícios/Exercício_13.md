@@ -23,6 +23,7 @@
   <input placeholder="Alguma tarefa" @bind="@newTask" @oninput="ClearValidationMessage"/>
   
   <button @onclick="CreateTask">Adicionar</button>
+  
   @if (!string.IsNullOrWhiteSpace(validationMessage))
   {
       <p style="color: red;">@validationMessage</p>
